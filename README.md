@@ -6,7 +6,6 @@
 ## How It Works
 The function works by calculating the perpendicular distance of each point on the WCSS curve to the line connecting the first and last points of the curve. The point with the maximum distance is identified as the "elbow," and its corresponding `k` value is returned.
 
-## Usage
 ### Function Definition:
 ```R
 find_optimal_k(wcss_values, k_values)
