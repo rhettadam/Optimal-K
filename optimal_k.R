@@ -1,5 +1,5 @@
 
-# Function to find the optimal number of clusters (k) using the Elbow Method
+# Function to find the optimal number of clusters for k-means analysis using the Elbow Method
 
 find_optimal_k <- function(wcss_values, k_values) {
   # Check that input lengths match
