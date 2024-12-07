@@ -13,6 +13,7 @@ You can manually copy the `find_optimal_k.R` file into your project or install t
 ### Function Definition:
 ```R
 find_optimal_k(wcss_values, k_values)
+```
 
 ![Screenshot 2024-12-06 231351](https://github.com/user-attachments/assets/8f8d667e-33d9-4079-ae00-a3d5d0bd241c)
 
