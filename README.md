@@ -1,7 +1,7 @@
 # Optimal-K
 
 ## Overview
-`Optimal-K` is an R function designed to determine the optimal number of clusters in K-Means clustering using the Elbow Method. This function helps users decide the best value of `k` by identifying the elbow point on the WCSS (Within-Cluster Sum of Squares) curve.
+`Optimal-K` is an R function to determine the optimal number of clusters in K-Means clustering using the Elbow Method. This function helps users decide the best value of `k` by identifying the elbow point on the WCSS (Within-Cluster Sum of Squares) curve.
 
 ## How It Works
 The function works by calculating the perpendicular distance of each point on the WCSS curve to the line connecting the first and last points of the curve. The point with the maximum distance is identified as the "elbow," and its corresponding `k` value is returned.
